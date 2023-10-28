@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/blogtoda/update.blogtoday.in/
+    - /bin/cp * $DEPLOYPATH
+    
